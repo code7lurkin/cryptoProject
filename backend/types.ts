@@ -6,7 +6,7 @@ export type Coin = {
     sparkline : Record<string , string | number | boolean  >
 }
 
-export type CoinbyId = {
+export type CoinById = {
     id : string ,
     name : string,
     symbol : string ,
